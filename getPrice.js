@@ -1,3 +1,7 @@
+const axios = require("axios");
+
+const endpoint = "https://graph.defined.fi/graphql";
+
 const getSolTokenPrice = async (address) => {
   const QUERY = `
       {
